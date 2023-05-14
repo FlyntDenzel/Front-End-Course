@@ -53,3 +53,23 @@ const firstNumber = 20;
 let secondNumber = 40;
 secondNumber = secondNumber + 40
 const myArray = [myBoolean, myString];
+
+sumProperty = firstNumber + secondNumber;
+
+const myObject = {
+    firstproperty: myArray,
+    secondproperty: sumProperty
+}
+
+console.log(myObject);
+console.log(myObject.secondproperty);
+
+//prints out the value at index 1 of the array from the object
+console.log(myObject.firstproperty[1]);
+
+const objetVariable = {
+    property1: 'i am property 1',
+    property2: 'i am property 2',
+    property3: [20, 30, 40]
+};
+console.log(objetVariable.property3[2]);
