@@ -73,3 +73,7 @@ const objetVariable = {
     property3: [20, 30, 40]
 };
 console.log(objetVariable.property3[2]);
+
+//declaring an exponential numbers
+const expNumber = 8**2;
+console.log(expNumber);
