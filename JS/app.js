@@ -32,5 +32,24 @@ const firstVariable = 'first code';
 const secondVariable = 10;
 
 //initializing an object
-const thirdVariable = {firstproperty: 'hi there'};
-console.log(thirdVariable);
+const thirdVariable = {
+    prop1: 'nchang',
+    prop2: 'fomekong',
+    prop3: 'denzel'
+};
+console.log(thirdVariable.prop3);
+
+
+//data co-ersing
+const sumVariable = firstVariable + secondVariable;
+console.log(sumVariable);
+
+const weekDay = ['monday', 'tuesay', 'wednesday'];
+console.log(weekDay[2]);
+
+const myBoolean = true;
+const myString = 'hello world';
+const firstNumber = 20;
+let secondNumber = 40;
+secondNumber = secondNumber + 40
+const myArray = [myBoolean, myString];
