@@ -98,3 +98,21 @@ firstFunction();
 (function secondFunction(){
     console.log('this is second function');
 }) ();
+
+//exercise 3
+//splitting a string into an array
+let string = 'denzel';
+let arrString = string.split("");
+console.log(arrString);
+
+//reversing the array 
+let reverseArray = arrString.reverse();
+console.log(reverseArray);
+
+//converting the array back into string
+let reverseString = reverseArray.join("");
+console.log(reverseString);
+
+// const array1 = [1,2,3];
+// reversedArray = array1.reverse();
+// console.log(reversedArray);
