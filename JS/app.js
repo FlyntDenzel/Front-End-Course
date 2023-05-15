@@ -116,3 +116,16 @@ console.log(reverseString);
 // const array1 = [1,2,3];
 // reversedArray = array1.reverse();
 // console.log(reversedArray);
+
+// let = prompt('enter a number');
+
+//exercise 4
+function evenOrOdd(number){
+    if (number % 2 === 0) {
+        console.log('this is an even number');
+    }
+    else {
+        console.log('this is an odd number');
+    }
+}
+evenOrOdd();
