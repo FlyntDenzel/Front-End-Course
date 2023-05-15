@@ -77,3 +77,22 @@ console.log(objetVariable.property3[2]);
 //declaring an exponential numbers
 const expNumber = 8**2;
 console.log(expNumber);
+
+const arr = ['denzel', 'christian', 'josue', 42];
+for(let i=0; i<arr.length; i++){
+    //searches if element at any index number is number
+    if (typeof arr[i] === 'number'){
+        console.log(arr[i]);//prints the value of number type
+    }
+}
+
+//declaring and calling the function seperately
+function firstFunction(){
+    console.log('this is another function');
+}
+firstFunction();
+
+//declaring and calling the function at the same time
+(function secondFunction(){
+    console.log('this is second function');
+}) ();
