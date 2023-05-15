@@ -1,6 +1,7 @@
 const htmlBody = document.querySelector('body');
 
 //creating the clicking function for our page
+//creating an anonymous function
 const randomClick = function() {
     //declared an array of colors
     const colors = ["green", "blue", "aqua", "beige", "white"];
@@ -93,6 +94,7 @@ function firstFunction(){
 firstFunction();
 
 //declaring and calling the function at the same time
+//invoked function
 (function secondFunction(){
     console.log('this is second function');
 }) ();
