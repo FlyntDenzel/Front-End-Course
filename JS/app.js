@@ -157,3 +157,13 @@ function getCount(str){
 
     return vowelCount;
 }
+
+function greet(name){
+
+    if(name == "denzel"){
+        return "Whats up my guy";
+    }
+    else 
+        return "Good morning";
+    
+}
