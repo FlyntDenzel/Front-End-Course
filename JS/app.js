@@ -158,12 +158,18 @@ function getCount(str){
     return vowelCount;
 }
 
+//exercise 6
 function greet(name){
-
-    if(name == "denzel"){
-        return "Whats up my guy";
+    // const name  = prompt('enter a name');
+    console.log(name);
+    if(name === "denzel"){
+        console.log('whats good my nigga!');
     }
-    else 
-        return "Good morning";
+    else{
+        console.log('hey there ' + name);
+
+    } 
     
 }
+
+
