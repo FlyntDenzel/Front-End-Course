@@ -159,8 +159,8 @@ function getCount(str){
 }
 
 //exercise 6
-function greet(name){
-    // const name  = prompt('enter a name');
+function greet(){
+    const name  = prompt('enter a name');
     console.log(name);
     if(name === "denzel"){
         console.log('whats good my nigga!');
@@ -172,4 +172,15 @@ function greet(name){
     
 }
 
+//exercise 7
+function modulus( n,x,y){
+    const result1 = n/x;
+    const result2 = n/y;
 
+    if(result1 % 1 === 0 && result2 % 2 ===0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
