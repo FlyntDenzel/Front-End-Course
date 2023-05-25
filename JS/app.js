@@ -184,3 +184,50 @@ function modulus( n,x,y){
         return false;
     }
 }
+
+//exercise 8
+function negative(num){
+    if(num < 0){
+        // console.log(num);
+        return true;
+    }
+    else{
+    //    let num1 = num * -1;
+        // console.log(num1);
+        return false;
+    }
+}
+
+//exercise 9
+function compare(){
+    const numArr = [1,2,3,4];
+    for(i=0; numArr.length; i++){
+        if(arr[i] < arr[i+1]){
+            console.log(arr[i]);
+        }
+    }
+}
+
+//exercise 10
+function sumation(){
+    const num = prompt('Enter number here');
+    let sum = 0;
+    for(i=1; i<=num; i++){
+        sum = sum +i;
+    }
+    console.log(sum);
+}
+
+// sumation();
+
+//exercise 11
+function average(){
+    const studentArray = [1,4,6];
+    let sum = 0;
+    for (i=0; i<studentArray.length; i++){
+        sum = sum +studentArray[i];
+    }
+    const mean = sum / studentArray.length;
+
+    return Math.floor(mean);
+}
