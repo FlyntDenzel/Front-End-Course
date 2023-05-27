@@ -231,3 +231,29 @@ function average(){
 
     return Math.floor(mean);
 }
+
+//callback functions
+//Re-usability of functions
+const arrayNum = [4,5,2,1];
+function callBackArray(mapper){
+    return mapper * 2;
+}
+//transforms all elements within the array with respect to the specific function
+const newArray = arrayNum.map(callBackArray);
+// console.log(newArray);
+
+//can reuse the same callback function for a different purpose
+const strArray = ['nchang', 'fomekong', 'denzel'];
+console.log(strArray.map(mapper => mapper[1]));
+
+// === compares both value and type
+//== same value but not the same time
+
+//months starts with an index of 0
+const myDate = new Date()
+
+const str1 = 'hello world i am here';
+const str2 = 'hello Mum i am here';
+//identifiers
+//using a regular expression 
+
