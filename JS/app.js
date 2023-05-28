@@ -257,3 +257,8 @@ const str2 = 'hello Mum i am here';
 //identifiers
 //using a regular expression 
 
+// slice is a method used for removing some members of an array from a specific index
+// syntax: numArr.slice([index of array])
+
+//splice is a method used to remove elements from an array stating the starting index and how many elements are to be removed from the array
+    
