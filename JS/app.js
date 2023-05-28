@@ -261,4 +261,20 @@ const str2 = 'hello Mum i am here';
 // syntax: numArr.slice([index of array])
 
 //splice is a method used to remove elements from an array stating the starting index and how many elements are to be removed from the array
-    
+
+const blogPost = [
+{
+    title: 'soccer',
+    category: 'leg'
+},
+{
+    title: 'basketball',
+    category: 'hands'
+},
+
+{
+    title: 'rugby',
+    category: 'hands'
+}
+];
+
