@@ -278,3 +278,12 @@ const blogPost = [
 }
 ];
 
+//exercise 12
+function filter(){
+    //return an array with filtered strings
+    oldArray = [2, 5, 3,'denzel', 'nchang', 6];
+    return oldArray.filter(mapper =>{
+        return mapper >= 0 && mapper === 'number';
+    });
+}
+filter();
