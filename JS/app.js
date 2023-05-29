@@ -287,3 +287,4 @@ function filter(){
     });
 }
 filter();
+//a DOM can be described as an API for an html document
