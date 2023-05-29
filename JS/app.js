@@ -4,7 +4,7 @@ const htmlBody = document.querySelector('body');
 //creating an anonymous function
 const randomClick = function() {
     //declared an array of colors
-    const colors = ["green", "blue", "aqua", "beige", "white"];
+    // const colors = ["green", "blue", "aqua", "beige", "white"];
 
     //getting random number based on the array size
     const randomIndex = Math.floor(Math.random() * colors.length);

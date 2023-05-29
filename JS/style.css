@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 button {
@@ -19,4 +19,8 @@ button:hover{
 .box1, .box2{
     border: 1px solid ;
     margin: 14px;
+}
+
+.img{
+    border-radius: 10px;
 }
