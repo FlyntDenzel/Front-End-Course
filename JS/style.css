@@ -15,3 +15,8 @@ button:hover{
     border: none;
     color: white;
 }
+
+.box1, .box2{
+    border: 1px solid ;
+    margin: 14px;
+}
