@@ -8,3 +8,11 @@
 // btn.onclick = addParagraph;
 
 
+function clearAll(){
+    const meme = document.querySelector('.meme');
+    const joke = document.querySelector('.joke');
+    const wisdom = document.querySelector('.wisdom');
+    const riddle = document.querySelector('.riddle');
+
+    
+}
