@@ -1,6 +1,20 @@
 body{
     background-color: rgb(24, 24, 29);
+}
+
+.content, .side-bar{
     color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.side-bar button{
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.side-bar button:hover{
+    background-color: rgb(131, 100, 33);
 }
