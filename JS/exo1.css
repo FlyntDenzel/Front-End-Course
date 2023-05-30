@@ -1,0 +1,4 @@
+/* selects all p elements that inherit directly from the main id */
+#main > p{
+    color: green;
+}
