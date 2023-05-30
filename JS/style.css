@@ -3,19 +3,19 @@ body {
     font-size: 15px;
 }
 
-button {
+/* button {
     background-color: transparent;
     border: 1px solid rgb(51, 51, 71);
     font-size: 1.5em;
     padding: 5px;
     transition: 0.3s ease-in-out;
-}
+} */
 
-button:hover{
+/* button:hover{
     background-color: navy;
     border: none;
     color: white;
-}
+} */
 
 .box1, .box2{
     border: 1px solid ;
@@ -24,4 +24,8 @@ button:hover{
 
 .img{
     border-radius: 10px;
+}
+
+.my-btn{
+    margin: 10px;
 }
