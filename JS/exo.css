@@ -12,9 +12,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 5px;
     background-color: transparent;
-    transition: 0.4s ease-in-out;
+    transition: 0.2s ease-in-out;
+    color: rgb(134, 117, 60);
 }
 
 .side-bar button:hover{
-    background-color: rgb(131, 100, 33);
+    background-color: rgb(92, 90, 86);
 }
