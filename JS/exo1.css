@@ -4,3 +4,22 @@
 } */
 
 /* tags are less specific than classes and ids */
+/* padding refers to the space within the box  */
+/* margin refers to the space out of the box */
+/* border refers to the thickness of the box */
+/* block elements do not occupy the same line as other elements and take the total width of the body*/
+/* inline elements can share space or the same linewith other elements */
+inline elements can occupy 
+div{
+    background-color: aqua;
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+div p{
+
+}
