@@ -9,12 +9,15 @@
 /* border refers to the thickness of the box */
 /* block elements do not occupy the same line as other elements and take the total width of the body*/
 /* inline elements can share space or the same linewith other elements */
+/* the various measurement units are percentage, em rem and pixels */
 body{
     margin: 0;
 }
 
 h4{
     margin: 0;
+    padding-left: 20px;
+    line-height: 50px;
 }
 
 .box1{
@@ -31,5 +34,13 @@ nav{
     background-color: navy;
     color: white;
     height: 50px;
+    /* mostly used for positioning nav bars to stay while scrolling */
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.boxes{
+    margin-top: 80px;
 }
 
