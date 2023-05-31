@@ -9,8 +9,15 @@
 /* border refers to the thickness of the box */
 /* block elements do not occupy the same line as other elements and take the total width of the body*/
 /* inline elements can share space or the same linewith other elements */
-inline elements can occupy 
-div{
+body{
+    margin: 0;
+}
+
+h4{
+    margin: 0;
+}
+
+.box1{
     background-color: aqua;
     color: white;
     width: 200px;
@@ -20,6 +27,9 @@ div{
     margin: 10px;
 }
 
-div p{
-
+nav{
+    background-color: navy;
+    color: white;
+    height: 50px;
 }
+
