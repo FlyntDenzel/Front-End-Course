@@ -1,3 +1,9 @@
+/* color templates 
+bottom - #2ab2af(darker) #28b8b4(darker)
+text - #c0df34
+top - #e5eff5 - #98a6bd */
+
+
 html{
     box-sizing: border-box;
 }
@@ -6,29 +12,56 @@ html{
     box-sizing: inherit;
 }
 
+h2,h4,p{
+    margin: 0;
+}
+
+body{
+    padding: 20px;
+}
+
 #card{
     width: 700px;
     height: 350px;
-    border: 4px solid aqua;
+    /* used a box shadow generator to get shadow value */
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 #top-section{
     width: 100%;
     height: 45%;
-    border: 2px solid blue;
+    padding: 20px;
+}
+
+#top-section h2{
+    color: #2ab2af;
+    margin-bottom: 15px;
+}
+
+#top-section h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#top-section p{
+    color: #98a6bd;
 }
 
 #bottom-section{
     width: 100%;
     height: 55%;
-    border: 2px solid green;
+    color: white;
 }
 
 #bottom-left-section{
     display: inline-block;
     width: 50%;
     height: 100%;
-    border: 2px solid orange;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 20px;
 }
 
 
@@ -36,5 +69,11 @@ html{
     display: inline-block;
     width: 50%;
     height: 100%;
-    border: 2px solid black;
+    vertical-align: top;
+    background-color: #2cece6;
+    padding: 20px;
+}
+
+button{
+    color: white;
 }
