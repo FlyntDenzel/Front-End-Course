@@ -1,0 +1,21 @@
+.box1, .box2{
+    margin: 10px;
+}
+
+.box1{
+    border: 2px solid green;
+    color: green;
+    flex: 50%;
+    text-align: center;
+}
+
+.box2{
+    border: 2px solid blue;
+    color: blue;
+    flex: 50%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
