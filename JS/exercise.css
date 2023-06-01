@@ -6,7 +6,7 @@ top - #e5eff5 - #98a6bd */
 
 html{
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 16px;
 }
 
@@ -39,7 +39,7 @@ body{
 
 #top-section h2{
     color: #2ab2af;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #top-section h4{
@@ -74,6 +74,15 @@ body{
     vertical-align: top;
     background-color: #2cece6;
     padding: 20px;
+}
+
+#bottom-left-section h4{
+    padding-bottom: 25px;
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 
 button{
