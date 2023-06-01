@@ -98,6 +98,20 @@ button{
     display: inline-block;
 }
 
+#price-frequency{
+    opacity: 0.3;
+}
+
 #price-container{
     margin-bottom: 10px;
+}
+
+#bottom-left-section p{
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+ul{
+    padding: 0;
+    
 }
