@@ -10,6 +10,7 @@
 /* block elements do not occupy the same line as other elements and take the total width of the body*/
 /* inline elements can share space or the same linewith other elements */
 /* the various measurement units are percentage, em rem and pixels */
+/* rem is font size relative to the root element size and em is relative to the element size being used */
 body{
     margin: 0;
 }
