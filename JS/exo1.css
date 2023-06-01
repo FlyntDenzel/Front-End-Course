@@ -15,7 +15,7 @@ body{
     margin: 0;
 }
 
-h4{
+/* h4{
     margin: 0;
     padding-left: 20px;
     line-height: 50px;
@@ -29,19 +29,28 @@ h4{
     padding: 10px;
     border: 5px solid black;
     margin: 10px;
-}
+} */
 
 nav{
-    background-color: navy;
+    background-image: url(mario.png);
+    width: 100vw;
+    height: 100vh;
+    /* to make sure the image takes the whole document */
+    background-size: cover;
     color: white;
-    height: 50px;
     /* mostly used for positioning nav bars to stay while scrolling */
     position: fixed;
-    width: 100%;
+    /* width: 100%; */
+    background-repeat: no-repeat;
     top: 0;
 }
 
-.boxes{
+/* .boxes{
     margin-top: 80px;
-}
-
+} */
+/* 
+systematic ways of writing html and css
+1 How do i want to arrange these html elements on the page?
+2 How does this arrangement look in the form of html3 HOw can i use css to achieve the layour I have imagined?
+3 How can i use css to achieve the layout i have imagined? 
+4 How should each element be styled? */
