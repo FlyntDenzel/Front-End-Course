@@ -6,6 +6,8 @@ top - #e5eff5 - #98a6bd */
 
 html{
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
 }
 
 *, *:before, *:after{
@@ -22,7 +24,7 @@ body{
 
 #card{
     width: 700px;
-    height: 350px;
+    height: 400px;
     /* used a box shadow generator to get shadow value */
     box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
     border-radius: 5px;
@@ -76,4 +78,10 @@ body{
 
 button{
     color: white;
+    background-color: #c0df34;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+
 }
