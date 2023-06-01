@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+#card{
+    width: 700px;
+    height: 350px;
+    border: 4px solid aqua;
+}
+
+#top-section{
+    width: 100%;
+    height: 45%;
+    border: 2px solid blue;
+}
+
+#bottom-section{
+    width: 100%;
+    height: 55%;
+    border: 2px solid blue;
+    display: flex;
+}
+
+#bottom-left-section{
+    width: 50%;
+    height: 100%;
+    border: 2px solid blue;
+}
+
+
+#bottom-right-section{
+    width: 50%;
+    height: 100%;
+    border: 2px solid blue;
+}
