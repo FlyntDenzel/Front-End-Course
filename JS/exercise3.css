@@ -1,0 +1,20 @@
+.card-2{
+    margin-top: 40px;
+    border: 4px solid blue;
+    width: 50%;
+    height: 350px;
+}
+
+.left-corner{
+    border: 3px solid green;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.right-corner{
+    border: 3px solid green;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
