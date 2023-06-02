@@ -18,4 +18,13 @@
     width: 50%;
     height: 100%;
     display: inline-block;
+    background-image: url(mario.png);
+    background-color: rgb(73, 7, 87);
 }
+
+/* adding a responsive layout to our page */
+/* @media (min-width: 600px) {
+    p{
+        color: blue;
+    }
+} */
