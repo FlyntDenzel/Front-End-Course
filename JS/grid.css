@@ -24,5 +24,7 @@ img{
 
 /* screen size for a tablet targeting any thing greater than a tablet*/
 @media (min-width: 962px) {
-    
+    img{
+        width: 24%;
+    }
 }
