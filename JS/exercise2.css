@@ -1,9 +1,14 @@
+h4, p{
+    margin: 0;
+}
+
 .card-1{
     width: 40%;
     height: 300px;
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    padding: 15px;
 }
 
 .top{
@@ -12,15 +17,34 @@
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+#color{
     background-color: rgb(0, 162, 255);
-    overflow: hidden;
+    background-position: center;
+    border-radius: 5px;
 }
 
 .bottom{
+    padding-top: 10px;
     height: 40%;
     width: 100%;
 }
 
 .top img{
     width: 50%;
+}
+
+.bottom h4{
+    font-size: 0.8rem;
+    padding-left: 20px;
+    font-weight: 700px;
+}
+
+.bottom p{
+    font-size: 0.8rem;
+    padding-left: 20px;
+    font-weight: 700px;
+    padding-top: 20px;
+    opacity: 0.4;
 }
