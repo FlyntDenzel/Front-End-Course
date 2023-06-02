@@ -9,10 +9,18 @@
     border: 2px solid green;
     height: 60%;
     width: 100%;
+    text-align: center;
 }
 
 .bottom{
     border: 3px solid orange;
     height: 40%;
     width: 100%;
+}
+
+.top img{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
 }
