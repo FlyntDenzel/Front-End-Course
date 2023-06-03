@@ -1,0 +1,26 @@
+/* flexbox is a very important parent to child relation */
+/* a display flex on the parent automatically makes all its children flex items */
+/* justify content distributes how much space is been alocated in a page */
+.container{
+    display: flex;
+    justify-content: start;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+/* flex item can also become a flex container if it has a flex display */
+.item-1{
+    display: flex;
+}
+
+.sub{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    margin: 10px;
+}
