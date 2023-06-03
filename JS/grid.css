@@ -1,9 +1,17 @@
 /* flexbox is a very important parent to child relation */
 /* a display flex on the parent automatically makes all its children flex items */
 /* justify content distributes how much space is been alocated in a page */
+/* align items position elements in a container respective to the width and height of that container */
+/* align content is a property mainly used with the wrap attribute */
 .container{
     display: flex;
-    justify-content: start;
+    width: 600px;
+    height: 400px;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+    align-content: baseline;
+    border: 4px solid rgb(31, 231, 221);
 }
 
 .item{
