@@ -42,3 +42,36 @@ body{
     margin-bottom: 15px;
     padding: 20px;
 }
+
+/* any style inserted here will be applied to the document with screen greater than 576px  */
+@media (min-width: 576px) {
+   #container{
+    display: flex;
+   }
+
+   #testimonial-5{
+    flex-basis: 25%;
+   }
+
+   #top-section{
+    display: flex;
+   }
+
+   #bottom-section{
+    display: flex;
+   }
+
+   #testimonial-1{
+    flex-basis: 75%;
+   }
+   #testimonial-2{
+    flex-basis: 25%;
+   }
+
+   #testimonial-3{
+    flex-basis: 25%;
+   }
+   #testimonial-4{
+    flex-basis: 75%;
+   }
+}
