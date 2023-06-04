@@ -41,7 +41,28 @@ body{
 .grid{
     margin-bottom: 15px;
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.header img{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.grid h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
 
 /* any style inserted here will be applied to the document with screen greater than 576px  */
 @media (min-width: 576px) {
