@@ -97,4 +97,11 @@ button{
         top: 35%;
         left: 80%;
     }
+
+    .input input{
+        width: 30%;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
 }
