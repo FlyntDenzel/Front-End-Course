@@ -22,5 +22,7 @@ let ageMonths = Math.floor((ageInYears - ageYears) * 12);
 // calculating the number of days
 let ageDays = Math.floor((ageInYears - ageYears - (ageMonths / 12)) * 365.25);
 
-document.getElementById('result').innerHTML = "Your age is: " + ageYears + "years, " + ageMonths + " months, and " + ageDays + " days";
+document.getElementById('result-year').innerHTML =  ageYears + " years";
+document.getElementById('result-month').innerHTML = ageMonths + " months";
+document.getElementById('result-day').innerHTML = + ageDays + " days";
 }
