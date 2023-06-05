@@ -76,3 +76,7 @@ button{
 #result-year, #result-month, #result-day{
     color: #7957b1;
 }
+
+@media (min-width: 500px) {
+  
+}
